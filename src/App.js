@@ -29,7 +29,7 @@ function App() {
     let toastId = toast.loading("Uploading files...");
 
     try {
-      const response = await axios.post("http://localhost:3000/upload", formData, {
+      const response = await axios.post("https://mutley-b9413289bc9a.herokuapp.com/upload", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
