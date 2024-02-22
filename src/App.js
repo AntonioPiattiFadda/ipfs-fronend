@@ -96,10 +96,10 @@ function App() {
         >
           See Smart Contract
         </button>
-        <button className="linkButton" disabled={hash == ""} onClick={() => handleRedirection(hash)}>
+        <button className="linkButton" disabled={hash === ""} onClick={() => handleRedirection(hash)}>
           See file on browser
         </button>
-        <button className="txButton" disabled={hash == ""} onClick={() => handleGoTo("https://testnet.bscscan.com/tx/" + txLink)}>
+        <button className="txButton" disabled={hash === ""} onClick={() => handleGoTo("https://testnet.bscscan.com/tx/" + txLink)}>
           See transaction on block explorer
         </button>
       </div>
