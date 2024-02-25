@@ -65,7 +65,7 @@ function App() {
     <>
       <div className="containerUpload">
         <Toaster />
-        <h1 className="title">IPFS Upload Archives</h1>
+        <h1 className="title">RepSelfie Upload</h1>
         <form onSubmit={handleSubmit}>
           <label htmlFor="inputFile" className="custom-input-file">
             Select file
